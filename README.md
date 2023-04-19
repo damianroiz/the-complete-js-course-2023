@@ -1,0 +1,1 @@
+Practicer assigments for Javascript Fundamentals Section
