@@ -1,1 +1,1 @@
-Practicer assigments for Javascript Fundamentals Section
+Practice assigments and projects for The Compmlete Javascript Course 2023
