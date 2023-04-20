@@ -7,3 +7,6 @@ let continent = "America";
 let population = "42 million";
 
 console.log(country, continent, population);
+
+l
+
