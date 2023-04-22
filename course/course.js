@@ -62,9 +62,44 @@
 
 //Taking decision if / else statements
 
-const age = 15;
-const isOldEnough = age >= 18;
+// const age = 15;
+// const isOldEnough = age >= 18;
 
-if (isOldEnough) {
-  console.log("Sarah can start driving license");
+// if (isOldEnough) {
+//   console.log("Sarah can start driving license");
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sarah is too young. Wait another ${yearsLeft} years :D`);
+// }
+
+// const birthYear = 1998;
+
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+
+// console.log(century);
+
+////////////////////////////////
+//Challenge 2 
+
+//1
+const markWeight = 78
+const markHeight = 1.69
+const johnWeight = 92
+const johnHeight = 1.95
+
+
+const markBMI = (markWeight / markHeight ** 2).toFixed(2)
+const johnBMI = (johnWeight / johnHeight ** 2).toFixed(2)
+
+const markHeigherBMI = markBMI > johnBMI;
+//2
+if (markHeigherBMI) {
+    console.log(`Mark's BMI ${markBMI} is higher than John's ${johnBMI}`)
+} else {
+    console.log(`John's BMI ${johnBMI} is higher that Mark's ${markBMI}`)
 }
